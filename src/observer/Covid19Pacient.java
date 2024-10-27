@@ -9,6 +9,7 @@ import domain.Symptom;
 import domain.SymptomFactory;
 import iterator.Covid19PacientIterator;
 
+@SuppressWarnings("deprecation")
 public class Covid19Pacient extends Observable{
 	private String  name; 
 	private int age;

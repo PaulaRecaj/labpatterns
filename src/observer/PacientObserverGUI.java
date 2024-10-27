@@ -12,6 +12,7 @@ import domain.Symptom;
 
 import javax.swing.JLabel;
 
+@SuppressWarnings("deprecation")
 public class PacientObserverGUI extends JFrame implements Observer{
 
 	private JPanel contentPane;
