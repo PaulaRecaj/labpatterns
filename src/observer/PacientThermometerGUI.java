@@ -30,6 +30,15 @@ public class PacientThermometerGUI extends Frame{
 		setVisible(true);
 	}
 
+	public void update(Observable o, Object args) { 
+		Covid19Pacient p=(Covid19Pacient) o;
+		// Obtain the current covidImpact to paint 
+		int farenheit = (int) p.covidImpact(); 
+		// temperature gauge update 
+		gauges.set(farenheit);
+		gauges.repaint(); 
+	}
+	
 	
 	class TemperatureCanvas extends Canvas {	
 		
