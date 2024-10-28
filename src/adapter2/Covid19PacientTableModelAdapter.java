@@ -43,7 +43,6 @@ public class Covid19PacientTableModelAdapter extends AbstractTableModel {
 			  
 		  default:
 			  return null;
-				  
 		  
 		  }
 		  
